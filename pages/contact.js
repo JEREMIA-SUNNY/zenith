@@ -199,7 +199,7 @@ export default function Contact() {
           width="100%"
           height="600"
           
-          allowfullscreen=""
+        
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>

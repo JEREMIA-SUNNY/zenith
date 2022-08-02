@@ -53,19 +53,19 @@ function TeamCard() {
   ];
   return (
     <>
-      <section class="bg-white mb-10">
-        <div class="container px-6 py-10 mx-auto">
-          <h1 class="text-3xl font-semibold text-center  capitalize lg:text-4xl text-black">
+      <section className="bg-white mb-10">
+        <div className="container px-6 py-10 mx-auto">
+          <h1 className="text-3xl font-semibold text-center  capitalize lg:text-4xl text-black">
             our team
           </h1>
 
-          <p class="max-w-2xl mx-auto my-6 text-center text-black">
+          <p className="max-w-2xl mx-auto my-6 text-center text-black">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
             incidunt ex placeat modi magni quia error alias, adipisci rem
             similique, at omnis eligendi optio eos harum.
           </p>
 
-          <div class="grid md:grid-cols-3 grid-cols-4 md:gap-4 gap-2 pt-12">
+          <div className="grid md:grid-cols-3 grid-cols-4 md:gap-4 gap-2 pt-12">
             {buttons.map((button, index) => (
               <div
                 key={index}
@@ -85,7 +85,7 @@ function TeamCard() {
             ))}
           </div>
 
-          <div class="grid border grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-3 xl:grid-cols-3">
+          <div className="grid border grid-cols-1  gap-8 mt-8 xl:mt-16 md:grid-cols-3 xl:grid-cols-3">
             {buttons[buttonIndex].products.map((product, index) => (
               <div
                 key={index}
